@@ -1,0 +1,267 @@
+<!--====== OUR SERVICE PART START ======-->
+  
+<section id="services" class="our-services-area pt-115">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-9">
+                <div class="section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <h6 class="sub-title">Our services</h6>
+                    <h4 class="title">Outstanding Services <span>to Fulfill Your Dreams</span></h4>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="our-services-tab pt-30">
+                    <ul class="nav justify-content-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="active" id="business-tab" data-toggle="tab" href="#business" role="tab" aria-controls="business" aria-selected="true">
+                                <i class="lni-briefcase"></i> <span>Pension <br> Loan</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="digital-tab" data-toggle="tab" href="#digital" role="tab" aria-controls="digital" aria-selected="false">
+                                <i class="lni-bullhorn"></i> <span>Student <br> Loan</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="market-tab" data-toggle="tab" href="#market" role="tab" aria-controls="market" aria-selected="false">
+                                <i class="lni-stats-up"></i> <span>Loan <br> Calculator</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="business" role="tabpanel" aria-labelledby="business-tab">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="our-services-image mt-50">
+                                        <img src="assets/images/elderlyy.png" alt="service">
+                                    </div> <!-- our services image -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="our-services-content mt-45">
+                                        <h3 class="services-title">Pension Loan <span>for Your Business Growth.</span></h3>
+                                        <p class="text">We offer easy access to affordable loans.  <br>  <br> At Penaid Limited, we believe that retirees can continue to have a significant impact on our society. Our goal is to enable retirees remain economically active by icreasing their capacity to create and maintain productive and profit generating enterprises. </p>
+                                        
+                                        <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="circle" id="circles-1"></div>
+                                            <div class="progress-content">
+                                                <h4 class="progress-title">Successful <br> Pensioners Loan.</h4>
+                                            </div>
+                                        </div>
+                                    </div> <!-- our services content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        
+                        <div class="tab-pane fade" id="digital" role="tabpanel" aria-labelledby="digital-tab">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="our-services-image mt-50">
+                                        <img src="assets/images/student.png" alt="service">
+                                    </div> <!-- our services image -->
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="our-services-content mt-45">
+                                        <h3 class="services-title">Student Loan  <span>for Your Education Stability.</span></h3>
+                                        <p class="text">At Penaid Limitd, we believe the future is bright with the right educaiton.  <br>  <br> Student loan can seem overwhelming when you're trying to get ready for college or career school. It doesn't have to be! We'll walk you through how student loan works, resources to pay for college, and loan repayment options. </p>
+                                        
+                                        <div class="our-services-progress d-flex align-items-center mt-55">
+                                            <div class="circle" id="circles-2"></div>
+                                            <div class="progress-content">
+                                                <h4 class="progress-title">Successful <br> Student Loan.</h4>
+                                            </div>
+                                        </div>
+                                    </div> <!-- our services content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        
+                        <div class="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
+                            <div class="row">
+                                <div class="col-lg-6"></div>
+                                <div class="container">
+                                  <form oninput="">
+                                    <div class="row text-center">
+                                      <div class="col-md-10 col-md-offset-1">
+                                        <br>
+                                        <p class="text-muted">
+                                          This loan calculator will help you determine the monthly payments on a loan. Simply slide the loan amount, term and interest rate in the fields below and click calculate. This calculator can be used for mortgage, auto, or any other fixed loan types by 4%.
+                                        </p>
+                                        <br>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-8 loan-details-box">
+                                        <div class="single-loan-slider">
+                                          <h4>
+                                            Pension Amount <span class="mm-amount">(Minimum NGN5,000)</span>
+                                          </h4>
+                                          <!-- <div class="output">
+                                            {{ pensionAmount || 1 | number: "1.1-2" }}
+                                          </div>
+                                          <input
+                                            [(ngModel)]="pensionAmount"
+                                            name="pensionAmount"
+                                            id="pensionAmount"
+                                            type="range"
+                                            min="5000"
+                                            max="1000000"
+                                            value="5000"
+                                          /> -->
+                                        </div>
+                                        <div class="single-loan-slider">
+                                          <h4>
+                                            Loan Amount
+                                            <span class="mm-amount">(Maximum x4 of your Pension)</span>
+                                          </h4>
+                                          <!-- <div class="output">
+                                            {{ loanAmount || 1 | number: "1.1-2" }}
+                                          </div>
+                                          <input
+                                            [(ngModel)]="loanAmount"
+                                            name="loanAmount"
+                                            id="loanAmount"
+                                            type="range"
+                                            min="1000"
+                                            max="{{ pensionAmount * 4 }}"
+                                            value="1000"
+                                          /> -->
+                                        </div>
+                              
+                                        <div class="single-loan-slider">
+                                          <h4>Duration of Months</h4>
+                                          <!-- <div class="output">{{ tenor || 1 }}</div>
+                                          <br />
+                                          <input
+                                            [(ngModel)]="tenor"
+                                            name="tenor"
+                                            type="range"
+                                            min="1"
+                                            max="12"
+                                            value="1"
+                                          /> -->
+                                        </div>
+                                      </div>
+                              
+                                      <div class="col-md-4 text-center loan-emi-box">
+                                        <div class="total-calculation">
+                                          <div class="single-total">
+                                            <h5>Monthly Pension</h5>
+                                            <h2 class="emi-price" id="emi">
+                                              <!-- <span class="result">
+                                                {{
+                                                  (loanAmount * 0.04 + loanAmount / tenor) * tenor || 0
+                                                    | number: "1.2"
+                                                }}
+                                              </span> -->
+                                            </h2>
+                                          </div>
+                                          <div class="single-total">
+                                            <h5>Loan Amount</h5>
+                                            <h2 class="emi-price" id="emi">
+                                              <!-- <span class="result">
+                                                {{ loanAmount | number }}
+                                              </span> -->
+                                            </h2>
+                                          </div>
+                                          <div class="single-total">
+                                            <h5>Monthly payment</h5>
+                                            <h2 id="tbl_la">
+                                              <!-- <span class="result">
+                                                {{
+                                                  loanAmount * 0.04 + loanAmount / tenor || 0 | number: "1.2"
+                                                }}
+                                              </span> -->
+                                            </h2>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                    </div> <!-- tab content -->
+                </div> <!-- our services tab -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
+<!--====== OUR SERVICE PART ENDS ======-->
+<!--====== SERVICE PART START ======-->
+  
+<section id="service" class="service-area pt-105">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8">
+                <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <h6 class="sub-title">Why Us</h6>
+                    <h4 class="title">The reasons to choose us <span>as your loan partner</span></h4>
+                </div> <!-- section title -->
+            </div>
+        </div> <!-- row -->
+        <div class="service-wrapper mt-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-4 col-md-7">
+                    <div class="single-service d-flex">
+                        <div class="service-icon">
+                            <img src="assets/images/service-1.png" alt="Icon">
+                        </div>
+                        <div class="service-content media-body">
+                            <h4 class="service-title">Highly Experienced</h4>
+                            <p class="text">We have highly experienced staffs to help your onboarding session through and smooth.</p>
+                        </div>
+                        <div class="shape shape-1">
+                            <img src="assets/images/shape/shape-1.svg" alt="shape">
+                        </div>
+                        <div class="shape shape-2">
+                            <img src="assets/images/shape/shape-2.svg" alt="shape">
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="single-service service-border d-flex">
+                        <div class="service-icon">
+                            <img src="assets/images/service-2.png" alt="Icon">
+                        </div>
+                        <div class="service-content media-body">
+                            <h4 class="service-title">Bunch of Services</h4>
+                            <p class="text">Medical Check-ups. <br>Health and lifestyle counselling. <br> Vocational skills training</p>
+                        </div>
+                        <div class="shape shape-3">
+                            <img src="assets/images/shape/shape-3.svg" alt="shape">
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="single-service d-flex">
+                        <div class="service-icon">
+                            <img src="assets/images/service-3.png" alt="Icon">
+                        </div>
+                        <div class="service-content media-body">
+                            <h4 class="service-title">Quality Support</h4>
+                            <p class="text">Our customer servies support has one of the best and highly trained personnel to help you get through.</p>
+                        </div>
+                        <div class="shape shape-4">
+                            <img src="assets/images/shape/shape-4.svg" alt="shape">
+                        </div>
+                        <div class="shape shape-5">
+                            <img src="assets/images/shape/shape-5.svg" alt="shape">
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-btn text-center pt-25 pb-15">
+                        <a class="main-btn main-btn-2" href="#">All Services</a>
+                    </div> <!-- service btn -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- service wrapper -->
+    </div> <!-- container -->
+</section>
+<!--====== SERVICE PART ENDS ======-->
