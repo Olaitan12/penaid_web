@@ -10,6 +10,10 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { ConfigService } from './config.service';
 
 @NgModule({
   declarations: [
@@ -20,13 +24,17 @@ import { CalculatorComponent } from './calculator/calculator.component';
     BlogComponent,
     ContactComponent,
     TestimonialsComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    FooterComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [ConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

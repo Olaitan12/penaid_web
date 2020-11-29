@@ -47,7 +47,8 @@ body {
   box-sizing: border-box; }
 
 img {
-  max-width: 100%; }
+  width: 100%; 
+}
 
 a:focus,
 input:focus,
@@ -1532,7 +1533,7 @@ p {
        07.TESTIMONIAL css 
 ===========================*/
 .testimonial-left-content .testimonial-line {
-  padding-top: 10px; }
+  padding-top: 15px; }
   .testimonial-left-content .testimonial-line li {
     height: 5px;
     background-color: #fde4e1;
@@ -2241,6 +2242,7 @@ section.loan-calculator p.text-muted {
 
 .single-loan-slider {
   margin-bottom: 40px;
+  border-radius: 50%;
 }
 .ui-widget-header {
   background: #15549a !important;

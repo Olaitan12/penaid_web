@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+
+  header = {
+    heading: 'Helping Pensioners Achieve New Goals.',
+        headingtext: "Empowering you in retirement",
+        buttontext: "SignUp",
+        buttonlink: "/",
+  };
+  constructor(private config: ConfigService) { }
 
   ngOnInit(): void {
+    this.getHeader();
+  }
+
+  getHeader () {
+    return this.config.getConfig().header;
   }
 
 }
