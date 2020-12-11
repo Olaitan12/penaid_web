@@ -9,16 +9,11 @@ import { ConfigService } from '../config.service';
 export class HeaderComponent implements OnInit {
 
 
-  header = {
-    heading: 'Helping Pensioners Achieve New Goals.',
-        headingtext: "Empowering you in retirement",
-        buttontext: "SignUp",
-        buttonlink: "/",
-  };
+  header = { };
   constructor(private config: ConfigService) { }
 
   ngOnInit(): void {
-    this.getHeader();
+    this.header = this.getHeader();
   }
 
   getHeader () {
