@@ -7,7 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ServicesComponent } from './services/services.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
-
+import { ArticleComponent } from './article/article.component';
+import { PostComponent } from './post/post.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Home', pathMatch:'full' },
@@ -18,6 +19,8 @@ const routes: Routes = [
   {path: 'Blog', component: BlogComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'Footer', component: FooterComponent},
+  { path: 'Article/:id', component: ArticleComponent },
+  { path: 'Post', component: PostComponent},
 ];
 
 

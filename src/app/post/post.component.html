@@ -1,0 +1,24 @@
+<div class="row justify-content-center">
+    <div class="col-lg-4 col-md-6 col-sm-8">
+        <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="blog-image">
+                <a href="blog-details.html"><img src="assets/images/{{post.image}}" alt="news"></a>
+            </div>
+            <div class="blog-content">
+                <h4 class="blog-title"><a routerLink="/article/{{post.id}}">{{post.title}}</a></h4>
+                <ul>
+                    {{post.excert}}
+                </ul>
+                <div class="blog-author d-flex align-items-center">
+                    <div class="author-image">
+                        <img src="assets/images/author-1.jpg" alt="author">
+                    </div>
+                    <div class="author-content media-body">
+                        <h6 class="sub-title">Posted by</h6>
+                        <p class="text">{{post.author}} | {{post.publishdate | date: 'dd-mm-yyyy' }}</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- single blog -->
+    </div>
+</div> <!-- row -->

@@ -14,6 +14,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ConfigService } from './config.service';
+import { PostComponent } from './post/post.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ConfigService } from './config.service';
     TestimonialsComponent,
     CalculatorComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    PostComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,

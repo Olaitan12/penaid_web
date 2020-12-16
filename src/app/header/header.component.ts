@@ -9,7 +9,12 @@ import { ConfigService } from '../config.service';
 export class HeaderComponent implements OnInit {
 
 
-  header = { };
+  header = {
+    heading: 'Helping Pensioners Achieve New Goals.',
+        headingtext: "Empowering you in retirement",
+        buttontext: "SignUp",
+        buttonlink: "/",
+  };
   constructor(private config: ConfigService) { }
 
   ngOnInit(): void {
