@@ -8,12 +8,11 @@ import { ConfigService } from '../config.service';
 })
 export class HeaderComponent implements OnInit {
 
-
   header = {
-    heading: 'Helping Pensioners Achieve New Goals.',
-        headingtext: "Empowering you in retirement",
-        buttontext: "SignUp",
-        buttonlink: "/",
+    heading: 'String',
+    headingtext: "String",
+    buttontext: "String",
+    buttonlink: "String",
   };
   constructor(private config: ConfigService) { }
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  about = {
+    tagline: 'String',
+    title: 'String',
+    description: 'String',
+  };
+
+  constructor(private config: ConfigService) { }
 
   ngOnInit(): void {
+    this.about = this.getAbout();
   }
 
+  getAbout () {
+    return this.config.getConfig().about;
+  }
 }

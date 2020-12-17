@@ -1,21 +1,21 @@
 export const configuration  = {
     header: {
-        heading: 'Helping Pensioners',
-        headingtext: "Empowering you in retirement...",
+        heading: 'LOREM IPSUM',
+        headingtext: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique voluptatum illo aut, delectus necessitatibus maiores! Corporis cumque nulla optio dolorum id accusamus amet! Quo adipisci aspernatur inventore maiores esse!",
         buttontext: "SignUp",
         buttonlink: "/home",
     },
 
     about: {
-        tagline: 'WELCOME TO PENAID',
-        title: 'Helping pensioner achieve',
-        description: 'At Penaid Limited, we believe that retirees can continue to have a significant impact on our society. Our goal is to enable retirees remain economically active by increasing their capacity to create and maintain productive and profit generating enterprises. We can accomplish through the provision of information, education and access to finance. The welfare of retirees is of paramount importance to and all our eforts are geared towards improving the quality life of retirees.',
+        tagline: 'WELCOME TO LOREM',
+        title: 'Lorem, ipsum dolor sit amet consectetur adipisicing ',
+        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique voluptatum illo aut, delectus necessitatibus maiores! Corporis cumque nulla optio dolorum id accusamus amet! Quo adipisci aspernatur inventore maiores esse!',
     },
-
     services: {
+
         tagline: 'OUR SERVICES',
         title: 'Outstanding Services to',
-        description: 'We offer easy access to affordable loans. At Penaid Limited, we believe that retirees can continue to have a significant impact on our society. Our goal is to enable retirees remain economically active by icreasing their capacity to create and maintain productive and profit generating enterprises.',
+        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti similique voluptatum illo aut, delectus necessitatibus maiores! Corporis cumque nulla optio dolorum id accusamus amet! Quo adipisci aspernatur inventore maiores esse!',
         tag: 'Why Us',
     },
 
