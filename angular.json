@@ -117,8 +117,17 @@
               "devServerTarget": "penaid:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/penaid",
+            "netlifyToken": "iWQBdgB4CmP3u4EIBqG4eNmObOznNDFfmENf5URB_eY",
+            "siteId": "88584c6b-f674-4998-b3ad-e94377e3037f"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "penaid"
 }
